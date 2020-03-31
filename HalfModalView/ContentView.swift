@@ -9,8 +9,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var halfModalShown = false
+    
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            Button(action: {
+                self.halfModalShown.toggle()
+            }) {
+                Text("Show Card")
+            }
+            
+            HalfModalView(isShown: $halfModalShown) {
+                Text("Hello Modal!")
+            }
+        }
     }
 }
 

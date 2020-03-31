@@ -13,6 +13,7 @@
 		AD44861924316BEA0047D5AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD44861824316BEA0047D5AB /* Assets.xcassets */; };
 		AD44861C24316BEA0047D5AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD44861B24316BEA0047D5AB /* Preview Assets.xcassets */; };
 		AD44861F24316BEA0047D5AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD44861D24316BEA0047D5AB /* LaunchScreen.storyboard */; };
+		AD44862724316C7A0047D5AB /* HalfModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD44862624316C7A0047D5AB /* HalfModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AD44861B24316BEA0047D5AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD44861E24316BEA0047D5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD44862024316BEA0047D5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD44862624316C7A0047D5AB /* HalfModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		AD44861124316BE60047D5AB /* HalfModalView */ = {
 			isa = PBXGroup;
 			children = (
+				AD44862624316C7A0047D5AB /* HalfModalView.swift */,
 				AD44861224316BE60047D5AB /* AppDelegate.swift */,
 				AD44861424316BE60047D5AB /* SceneDelegate.swift */,
 				AD44861624316BE60047D5AB /* ContentView.swift */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD44861324316BE60047D5AB /* AppDelegate.swift in Sources */,
+				AD44862724316C7A0047D5AB /* HalfModalView.swift in Sources */,
 				AD44861524316BE60047D5AB /* SceneDelegate.swift in Sources */,
 				AD44861724316BE60047D5AB /* ContentView.swift in Sources */,
 			);
